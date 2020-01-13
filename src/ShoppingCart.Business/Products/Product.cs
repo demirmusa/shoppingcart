@@ -18,6 +18,11 @@ namespace ShoppingCart.Business.Products
                 throw new ArgumentNullException(nameof(title));
             }
 
+            if (category == null)
+            {
+                throw new ArgumentNullException(nameof(category));
+            }
+
             if (price <= 0)
             {
                 throw new ArgumentOutOfRangeException(nameof(price), $"{nameof(price)} should be more than 0 (zero)");

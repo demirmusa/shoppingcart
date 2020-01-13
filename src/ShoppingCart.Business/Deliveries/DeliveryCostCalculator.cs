@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using ShoppingCart.Business.Carts;
 
 namespace ShoppingCart.Business.Deliveries
